@@ -1,0 +1,21 @@
+{
+  "name": "stayfinder",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "build:cap": "node scripts/build-cap.mjs",
+    "cap:sync": "npm run build:cap && npx cap sync"
+  },
+  "dependencies": {
+    "@capacitor/cli": "^8.6.0",
+    "@capacitor/core": "^8.6.0",
+    "@modelcontextprotocol/sdk": "^1.32.2",
+    "leaflet": "1.9.4",
+    "next": "^16.4.3",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  }
+}
